@@ -1,0 +1,33 @@
+{
+    "name": "one-dark-ui",
+    "displayName": "One Dark UI",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/g3offrey/one-dark-ui"
+    },
+    "description": "One Dark UI theme from Atom to VSCode",
+    "version": "0.0.1",
+    "publisher": "legfrey",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "keywords": [
+        "color-theme",
+        "theme",
+        "one",
+        "dark",
+        "atom"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "One Dark UI",
+                "uiTheme": "vs-dark",
+                "path": "./themes/one-dark-ui.json"
+            }
+        ]
+    }
+}
